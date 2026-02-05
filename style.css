@@ -1,0 +1,59 @@
+@media (max-width: 1024px) {
+  .scroll-min-sun-menu {
+    height: 438px !important;
+    overflow-x: hidden;
+  }
+
+  .footer span{
+    font-size: 9px;
+  }
+
+  .content{
+    height: 81vh;
+  }
+
+  .scroll-min {
+    height: 389px !important;
+  }
+
+  .scroll-item-min {
+    height: 186px;
+  }
+
+  .min-number-pad-height {
+    /* height: 33.8px; */
+    height: 36.5px;
+  }
+
+  .number-pad{
+    padding-top: 3px !important;
+  }
+
+  .number-pad.border {
+    font-size: 10px !important;
+  }
+
+  .height-45 {
+    height: 30px !important;
+  }
+
+  .btn {
+    font-size: 12px !important;
+    /* padding: 0.4rem 0.5rem !important; */
+    padding: 0px;
+  }
+
+  .customheight-action-btn{
+    height: 120px;
+    overflow: auto;
+    padding-left: 1.9rem !important;
+  }
+
+  .full-min-screen-modal{
+    height: 87vh;
+  }
+.full-max-screen-modal {
+  height: 89vh;
+}
+
+}
