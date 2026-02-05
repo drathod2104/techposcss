@@ -21,7 +21,6 @@
   }
 
   .min-number-pad-height {
-    /* height: 33.8px; */
     height: 36.5px;
   }
 
@@ -39,7 +38,6 @@
 
   .btn {
     font-size: 12px !important;
-    /* padding: 0.4rem 0.5rem !important; */
     padding: 0px;
   }
 
