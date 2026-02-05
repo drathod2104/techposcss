@@ -1,3 +1,7 @@
+body{
+  background: red !important;
+}
+
 @media (max-width: 1024px) {
   .scroll-min-sun-menu {
     height: 438px !important;
