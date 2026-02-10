@@ -212,7 +212,7 @@
     padding: 0px !important;
   }
 
-  .customheight-action-btn {
+  ::ng-deep.customheight-action-btn {
     height: 120px !important;
     overflow: auto !important;
     padding-left: 1.9rem !important;
