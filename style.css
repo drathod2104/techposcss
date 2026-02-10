@@ -1,6 +1,141 @@
-body{
+/* body{
   background: red !important;
+} */
+
+.d-contents {
+  display: contents;
 }
+
+.side-item {
+  height: 50px;
+  margin-bottom: 0px;
+  max-width: 150px;
+  align-content: center;
+  overflow-wrap: break-word;
+}
+
+.item-section {
+  border-radius: 0.35rem;
+}
+
+.billing-sec {
+  font-size: 9px;
+  padding-bottom: 0px;
+}
+
+.input-group .search {
+  height: 27px !important;
+  font-size: 12px;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  line-height: 10px !important;
+  font-size: 10px;
+}
+
+
+.mb-2 {
+  margin-bottom: 2px !important;
+}
+
+.table>thead>tr>th {
+  align-content: center;
+  height: 38px;
+}
+
+.td-highlight {
+  font-size: 20px !important;
+  align-content: center;
+}
+
+.headerInfo {
+  display: grid;
+  height: 29px;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+#style-7::-webkit-scrollbar {
+  width: 5px;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-12 {
+  font-size: 10px !important;
+}
+
+.tablinks {
+  margin-bottom: 2px;
+}
+
+.addon-screen {
+  height: 105vh;
+  background: #fff;
+}
+
+.menu-screens {
+  top: 50px;
+
+  .addon-screen {
+    height: 96vh !important;
+  }
+}
+
+.btn-height-50 {
+  height: 50px;
+  background-color: rgb(101, 127, 108);
+  overflow: visible;
+  white-space: normal;
+}
+
+.width-60 {
+  width: 60px !important;
+}
+
+
+.change-menu-container {
+  z-index: 1;
+}
+
+.content {
+  height: 79vh;
+}
+
+.card {
+  width: 21rem;
+}
+
+.footer {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
+  place-content: center;
+}
+
+.footer span {
+  font-size: 10px;
+}
+
+.ellipsis-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
 
 @media (max-width: 1024px) {
   .scroll-min-sun-menu {
@@ -8,11 +143,11 @@ body{
     overflow-x: hidden;
   }
 
-  .footer span{
+  .footer span {
     font-size: 9px;
   }
 
-  .content{
+  .content {
     height: 81vh;
   }
 
@@ -28,7 +163,7 @@ body{
     height: 36.5px;
   }
 
-  .number-pad{
+  .number-pad {
     padding-top: 3px !important;
   }
 
@@ -45,17 +180,41 @@ body{
     padding: 0px;
   }
 
-  .customheight-action-btn{
+  .customheight-action-btn {
     height: 120px;
     overflow: auto;
     padding-left: 1.9rem !important;
   }
 
-  .full-min-screen-modal{
-    height: 87vh;
+  .full-min-screen-modal {
+    height: 105vh;
   }
-.full-max-screen-modal {
-  height: 89vh;
+
+  .full-max-screen-modal {
+    height: 89vh;
+  }
+
 }
 
+#style-7::-webkit-scrollbar {
+  width: 5px;
+}
+
+.order-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* scrollbar compensation */
+.header-table {
+  padding-right: 17px;
+}
+
+.custom-tr {
+  overflow-y: auto;
+}
+
+input[readonly]:focus {
+  border: 1px solid #975AFF;
+  outline: none;
 }
