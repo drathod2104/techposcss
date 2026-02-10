@@ -143,9 +143,28 @@
 
 
 @media (max-width: 1024px) {
+
+  #London,
+  #Paris,
+  #Tokyo {
+    height: 120px;
+    overflow: auto;
+    padding-left: 1.9rem !important;
+  }
+
+
   .scroll-min-sun-menu {
     height: 438px !important;
     overflow-x: hidden;
+  }
+
+  .scroll-min-full-screen-sun-menu {
+    height: 572px !important;
+    z-index: 1 !important;
+  }
+
+  .scroll-min-full-screen {
+    height: 523px !important;
   }
 
   .footer span {
@@ -164,6 +183,10 @@
     height: 186px !important;
   }
 
+  .scroll-item-min-full-screen {
+    height: 320px !important;
+  }
+
   .min-number-pad-height {
     height: 36.5px !important;
   }
@@ -172,8 +195,12 @@
     padding-top: 3px !important;
   }
 
-  .number-pad.border {
+  .number-pad {
     font-size: 10px !important;
+  }
+
+  .min-number-pad-height-full-screen {
+    height: 46.8px !important;
   }
 
   .height-45 {
@@ -199,6 +226,16 @@
     height: 89vh !important;
   }
 
+  .modal-4xl {
+    max-width: 100% !important;
+    margin: 5px !important;
+
+    .modal-content {
+      height: 98vh;
+    }
+  }
+
+
 }
 
 #style-7::-webkit-scrollbar {
@@ -222,4 +259,20 @@
 input[readonly]:focus {
   border: 1px solid #975AFF;
   outline: none;
+}
+
+.amount-input-field {
+  font-size: 34px !important;
+}
+
+
+@media (max-width: 769px) {
+
+  .min-number-pad-height {
+    height: 37px !important;
+  }
+
+  .scroll-item-min {
+    height: 175px !important;
+  }
 }
