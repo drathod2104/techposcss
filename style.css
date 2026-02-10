@@ -109,6 +109,11 @@
   z-index: 1;
 }
 
+.change-menu {
+  background-color: rgb(82, 124, 151);
+  font-size: 12px;
+}
+
 .content {
   height: 79vh;
 }
@@ -148,7 +153,7 @@
   }
 
   .content {
-    height: 81vh;
+    height: 81vh !important;
   }
 
   .scroll-min {
@@ -156,11 +161,11 @@
   }
 
   .scroll-item-min {
-    height: 186px;
+    height: 186px !important;
   }
 
   .min-number-pad-height {
-    height: 36.5px;
+    height: 36.5px !important;
   }
 
   .number-pad {
@@ -177,21 +182,21 @@
 
   .btn {
     font-size: 12px !important;
-    padding: 0px;
+    padding: 0px !important;
   }
 
   .customheight-action-btn {
-    height: 120px;
-    overflow: auto;
+    height: 120px !important;
+    overflow: auto !important;
     padding-left: 1.9rem !important;
   }
 
   .full-min-screen-modal {
-    height: 105vh;
+    height: 105vh !important;
   }
 
   .full-max-screen-modal {
-    height: 89vh;
+    height: 89vh !important;
   }
 
 }
