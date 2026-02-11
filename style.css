@@ -276,3 +276,116 @@ input[readonly]:focus {
     height: 175px !important;
   }
 }
+
+/* login css */
+.row:before{
+  content: none;
+}
+
+.detailAll {
+  .text {
+   font-size: 16px !important;
+  }
+  
+  .text1 {
+   font-size: 14px;
+  }
+}
+
+.userLogin{
+    display: block;
+  width: 100%;
+  max-width: 470px !important;   /* keep your design width */
+  height: 86vh !important;
+  min-height: 86vh !important;
+  padding: 16px !important;
+  margin-top: 0 !important;
+  box-sizing: border-box !important;
+
+  .btn {
+    
+    flex: 1;
+  min-width: 0;
+  height: 50px;
+  font-size: clamp(14px, 2vw, 20px);
+  }
+}
+
+.topBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 0 !important;
+  flex-wrap: wrap;
+}
+
+.topBtn .btn {
+  flex: 1;                     /* all three equal width */
+  min-width: 108px !important;           /* don’t get too small */
+  max-width: 120px !important;           /* don’t get too wide */
+  height: 45px !important;
+  font-size: clamp(14px, 2vw, 20px) !important;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.key {
+  width: 100% !important;
+  max-width: 116px !important;
+  height: 45px !important;
+  font-size: clamp(20px, 3vw, 30px) !important;
+  margin: 2px !important;
+}
+
+::ng-deep.zero {
+  .key {
+    max-width: 99%;
+  }
+}
+.footerBtn {
+  margin-left: 0px !important;
+}
+
+input {
+  width: 99% !important;
+  margin-left: 0 !important;
+  margin-bottom: 8px !important;
+  font-size: clamp(14px, 2vw, 18px) !important;
+}
+
+.detailContant {
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-left: 0 !important;
+}
+
+.zero {
+  grid-column: span 3;
+}
+
+.smtBtn {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.clearBtn,
+.nextBtn,
+.loginBtn {
+  flex: 1;                 /* all three take equal width */
+  min-width: 108px !important;       /* prevents too small buttons */
+  max-width: 120px !important;      /* prevents too large on wide screens */
+  height: 45px !important;
+  font-size: clamp(16px, 2vw, 21px) !important;
+  box-sizing: border-box;
+  font-weight: 800;
+}
+
+.bothPart {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
