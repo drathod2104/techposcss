@@ -298,6 +298,10 @@ input[readonly]:focus {
   }
 }
 
+.container-fluid img{
+  padding: 0 !important;
+}
+
 .userLogin {
   display: block !important;
   width: 100% !important;
