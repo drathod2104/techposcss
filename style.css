@@ -292,6 +292,10 @@ input[readonly]:focus {
   .text1 {
     font-size: 14px;
   }
+
+  label{
+    word-break: auto-phrase !important;
+  }
 }
 
 .userLogin {
