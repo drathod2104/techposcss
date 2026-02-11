@@ -293,8 +293,8 @@ input[readonly]:focus {
 }
 
 .userLogin{
-    display: block;
-  width: 100%;
+    display: block !important;
+  width: 100% !important;
   max-width: 470px !important;   /* keep your design width */
   height: 86vh !important;
   min-height: 86vh !important;
@@ -332,7 +332,7 @@ input[readonly]:focus {
 
 .key {
   width: 100% !important;
-  max-width: 116px !important;
+  /* max-width: 116px !important; */
   height: 45px !important;
   font-size: clamp(20px, 3vw, 30px) !important;
   margin: 2px !important;
@@ -355,7 +355,7 @@ input {
 }
 
 .detailContant {
-   display: grid;
+   display: grid !important;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin-left: 0 !important;
