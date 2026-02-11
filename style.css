@@ -384,20 +384,22 @@ input {
   width: 100%;
   flex-wrap: wrap;
 }
+.smtBtn{
 
-.clearBtn,
-.nextBtn,
-.loginBtn {
-  flex: 1;
-  /* all three take equal width */
-  min-width: 108px !important;
-  /* prevents too small buttons */
-  max-width: 120px !important;
-  /* prevents too large on wide screens */
-  height: 45px !important;
-  font-size: clamp(16px, 2vw, 21px) !important;
-  box-sizing: border-box;
-  font-weight: 800;
+  .clearBtn,
+  .nextBtn,
+  .loginBtn {
+    flex: 1;
+    /* all three take equal width */
+    min-width: 108px !important;
+    /* prevents too small buttons */
+    max-width: 120px !important;
+    /* prevents too large on wide screens */
+    height: 45px !important;
+    font-size: clamp(16px, 2vw, 21px) !important;
+    box-sizing: border-box;
+    font-weight: 800;
+  }
 }
 
 .bothPart {
