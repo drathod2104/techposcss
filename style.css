@@ -209,7 +209,7 @@
 
   .btn {
     font-size: 12px !important;
-    padding: 0px !important;
+    /* padding: 0px !important; */
   }
 
   .customheight-action-btn {
